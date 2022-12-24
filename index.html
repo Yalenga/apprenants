@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        td, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper container">
+        <h1>Enregistrer un apprenants</h1>
+        <div class="form">
+            <form id="form" action="">
+
+                <label class="form-label">Nom</label> </br>
+                <input type="text" name="nom" id="nom" required> </br>
+                <label class="form-label">Postnom</label>  </br>
+                <input type="text" name="postnom" id="postnom" required> </br>
+                <label class="form-label">Prenom</label>  </br>
+                <input type="text" name="prenom" id="prenom" required> </br>
+                <label class="form-label">Genre</label>  </br>
+                <input type="text" name="genre" id="genre" required> </br>
+                <label class="form-label">Pays</label>  </br>
+                <input type="text" name="pays" id="pays" required></br> </br>
+                <button class="btn btn-primary" id="btnsubmit" type="submit"></button>
+            </form>
+        </div>
+        <h2>Liste des apprenants</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                 
+                    <th>Nom</th>
+                    <th>Postnom</th>
+                    <th>Prenom</th>
+                    <th>Genre</th>
+                    <th>Pays</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                
+            </tbody>
+        </table>
+        
+   </div>
+   <script src="js/script.js"></script> 
+</body>
+</html>
